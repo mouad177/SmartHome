@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Readex+Pro:wght@160..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Readex Pro", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+#HomePageFull{
+  background: linear-gradient(rgb(16, 48, 74),rgb(64, 97, 150));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:50rem;
+  width: 100vw;
+}
+
+#nav a,button{
+cursor:default;
+}
+#HomePage{
+  width: 100%;
+}
+.hide{
+  display: none;
+}
+
+#img1,#img2,#img3,#img0{
+  transition: 0.5s;
+  z-index: 15;
+}
+#img1:hover,#img2:hover,#img3:hover,#img0:hover{
+  scale: 1.04 1.05;
+
+}
+
+#img0,#img01{
+padding: 5px;
+}
+
+#Gallery{
+
+
+background: linear-gradient(rgb(43, 132, 184),rgb(20, 163, 144));
+  width: 100vw;  
+
+
+
+}
+
+#mobile-menu{
+  z-index: 104;
+}
+#controls,h1{
+  z-index: 101;
+}
+#txt{
+z-index: 102;
+}
+#NewProducts{
+  background:linear-gradient(rgb(10, 56, 96),rgb(73, 162, 206));
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+#em,#username{
+  border-radius: 10px;
+  background: transparent;
+  border: white solid 2px;
+  text-align: center;
+  color: white;
+  outline: none;
+  width: 300px;
+}
+#em{
+  text-align: right;
+}
+input::placeholder{
+  color:#ffffffc8
+}
+textarea{
+  padding: 4px;
+  color: black;
+  height: 300px;
+  outline: none;
+}
+#Contact{
+  background-size: cover;
+  width: 100vw;
+}
+textarea::placeholder{
+  color: rgb(41, 38, 38);
+}
+i{
+  translate: 25px;
+}
